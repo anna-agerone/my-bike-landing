@@ -146,6 +146,9 @@ select:-webkit-autofill:focus {
   align-items: center;
 
   color: #1d1d1d;
+  outline: none;
+  border: none;
+  box-shadow: none;
 
   display: grid;
   grid-column: 1 / -1;
