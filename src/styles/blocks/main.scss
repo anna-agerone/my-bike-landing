@@ -2,17 +2,19 @@
   background-color: $bacground-color;
 
   &__content {
-    display: grid;
-    row-gap: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
     padding-block: 92px;
+    width: 100%;
 
     @include on-tablet {
-      row-gap: 120px;
+      gap: 120px;
       padding-block: 120px;
     }
 
     @include on-desktop {
-      row-gap: 144px;
+      gap: 144px;
       padding-block: 144px;
     }
   }
